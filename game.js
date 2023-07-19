@@ -5,7 +5,7 @@ let level = 0;
 let start = false;
 
 
-// User must hit any key to start game.
+// User must hit any key to the start game.
 $(document).on("keypress", function(){
    if(!start){
       $("h1").text("Level " + level);
@@ -26,7 +26,7 @@ $(".btn").on("click",function(){
  })
  
 
- // To check if the user selected button pattern equals the randomly selected button pattern. If Successful Match, you will enter the next level. If the Match is not successful , the Game Ends.
+ // To check if the user selected button pattern equals the randomly selected button pattern. If a successful match, you will enter the next level. If the Match is not successful , the Game Ends.
 function checkMatch(index){
    if (selectedPattern[index] === randomPattern[index]){
       if(selectedPattern.length === randomPattern.length){
