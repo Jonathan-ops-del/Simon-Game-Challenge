@@ -7,3 +7,5 @@ Steps to get started:
 2) Copy the path "index.html" into your local browser.
 
 
+NOTE* This project has also been uploaded to Heroku, and you can simply click on the link here - https://my-simon-game-app-2a6535fb5b80.herokuapp.com/ - to view the application on your Web Browser
+
